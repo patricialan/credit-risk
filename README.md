@@ -1,7 +1,7 @@
 # Machine Learning Models To Predict Credit Risk
 
 ## Overview
-The purpose of this project was to assess the performance of different supervised machine learning models on predicting credit risk. The [dataset](data/LoanStats_2019Q1.csv) was from LendingClub, a lending services company. The target variable, credit risk ("loan status"), was split into "high-risk" vs. "low-risk". Models assessed were sampling algorithms combined with logistic regression, and ensemble learners. 
+The purpose of this project was to assess the performance of different supervised machine learning models on predicting credit risk. The [dataset](data/LoanStats_2019Q1.csv.zip) was from LendingClub, a lending services company. The target variable, credit risk ("loan status"), was split into "high-risk" vs. "low-risk". Models assessed were sampling algorithms combined with logistic regression, and ensemble learners. 
 
 Sampling algorithms were:
 
@@ -47,7 +47,7 @@ All of the models are poor predictors of high credit risk. (The highest F1 score
 
 ## Resources
 ### Data & Analysis Files
-- [LoanStats_2019Q1.csv](data/LoanStats_2019Q1.csv) (dataset from LendingClub)
+- [LoanStats_2019Q1.csv](data/LoanStats_2019Q1.csv.zip) (dataset from LendingClub)
 - [LCDataDictionary.xlsx](data/LCDataDictionary.xlsx)
 - [credit_risk_resampling.ipynb](analysis/credit_risk_resampling.ipynb)
 - [credit_risk_ensemble.ipynb](analysis/credit_risk_ensemble.ipynb)
